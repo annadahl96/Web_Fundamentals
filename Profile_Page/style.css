@@ -1,0 +1,269 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #2f4b2b;
+    display: flex;
+}
+
+.navBar {
+    width: 70%;
+    height: 40px;
+    padding: 5px 0px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navLeft {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    justify-content: left;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    font-size: large;
+    justify-content: space-between;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.signOut {
+    font-size: medium;
+    border: 2px solid black;
+    padding: 2px 7px;
+    background-color: #81ac77;
+    box-shadow: 2px 2px black;
+    color: white;
+    justify-content: right;
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+}
+
+/* This begins the container */
+
+.container {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mainContent {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin-top: 30px;
+}
+
+.sideBar {
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* This is the User's information. top left of the webpage. */
+
+.userCard{
+    width: 100%;
+    background-color: #81ac77;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+.profile_info {
+    margin-top: 70px;
+    padding: 0px 30px 15px 30px;
+    background-color: white;
+    border: 3px solid rgb(226, 108, 127);
+    border-top: none;
+}
+
+.profile_info > h2 {
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+.profile_image {
+    width: 80px;
+    border: 2px solid rgb(226, 108, 127);
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.location > img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.edit_profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.edit_profile > a {
+    color: #81ac77;
+}
+
+.edit_profile > img {
+    height: 15px;
+    margin-right: 10px;
+}
+
+/* This is the User's education information. Bottom left of page.*/
+
+.education {
+    width: 100%;
+    margin-top: 30px;
+    background-color:rgb(226, 108, 127);
+}
+
+#educationHeader {
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+.eduContent {
+    background-color: white;
+    border: 3px solid rgb(226, 108, 127);
+    border-top: none;
+    padding: 15px 30px;
+}
+
+.eduContent > h2 {
+    font-weight: normal;
+}
+
+.eduContent > h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+} 
+
+/* Side bar content begins here. */
+
+.connections {
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+}
+
+.connectHeader {
+    display: flex;
+    background-color: rgb(226, 108, 127);
+    padding: 3px;
+    color: white;
+    align-items: center;
+}
+
+.notifNumber {
+    margin: 10px;
+    font-size: medium;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 3px 7px 2px 7px;
+    background-color: #81ac77;
+    color: white;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: left;
+    border: 3px solid rgb(226, 108, 127);
+    border-top: none;
+}
+
+.requestRows {
+    display: flex;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.requestRows > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkIcons {
+    display: flex;
+    gap: 5px;
+}
+
+.checkIcons > img{
+    width: 30px;
+}
+
+.connectRows {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}
+
+.connectImg {
+    display: flex;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.connections > a {
+    display: flex;
+    color: #81ac77;
+    font-size: medium;
+    padding: 10px;
+    border: 3px solid rgb(226, 108, 127);
+    border-top: none;
+}
